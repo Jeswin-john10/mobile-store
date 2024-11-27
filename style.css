@@ -1,0 +1,163 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+/* navbar */
+#main{
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+#navbarSupportedContent a{
+    color: black;
+    font-weight:600 ;
+    
+}
+#navbarSupportedContent a:hover{
+     color:cyan;
+}
+span{
+    color:cyan;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+span:hover{
+    color:#0ef;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#effect3d { animation-name: effect3d }
+@keyframes effect3d {
+    to {
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15)
+    }
+}
+/* homepage */
+
+
+
+.blink-1{
+    height: 40px;
+    width: 150px;
+   
+}
+.blink-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.blink-1:hover{
+   background-color: #0ef;
+}
+
+/* about */
+
+#about{
+    background-color: rgba(0, 0, 0, 0.312);
+    color: black;
+}
+#about p{
+    font-size: 1.2rem;
+}
+#hr{
+    width: 200px;
+    height: 0.3rem;
+    background-color: white;
+}
+/* mobilephone android*/
+#android{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+  #android i{
+    color: #0ef;
+  }
+
+#cart-hover i:hover{
+    color:white;
+    }
+  #btn-color:hover{
+background-color: #0ef;
+  }
+
+#oneplus i{
+    color: #0ef;
+}
+
+  #xiaomi{
+    background-color: rgba(0, 0, 0, 0.201);
+}
+
+#xiaomi i{
+    color: #0ef;
+}
+
+#vivo i{
+    color: #0ef;
+}
+/* mobilephone ios */
+#ios{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+#iphone{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+#iphone i{
+    color: #0ef;
+}
+/* tablet */
+#ipad i{
+    color: #0ef;
+}
+#android-tab i{
+    color: #0ef;
+}
+/* headphone */
+#headphone{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+/* accessories */
+#accessories{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+#accessories i{
+   color: #0ef;
+}
+/* latest phone */
+#latest{
+  
+  background-color: rgba(0, 0, 0, 0.801);
+}
+#latest i{
+    color: #0ef;
+
+}
+/* footer */
+#about-techhub a{
+    text-decoration: none;
+    color: white;
+}
+#about-techhub a:hover{
+
+    color:#0ef;
+}
+#exampleFormControlInput1:focus{
+background-color: #0ef;;
+}
+#footer i:hover{
+    color:#0ef;
+}
+#footer a{
+    text-decoration: none;
+color: white;
+}
+#footer a:hover{
+    color:#0ef;
+   
+    
+}
